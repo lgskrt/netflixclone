@@ -1,0 +1,128 @@
+:root{
+    --vermelho:#EE0914;
+    --preta:#090606;
+}
+
+
+/*corpo*/
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+header .mdss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 34%;
+
+}
+
+
+
+
+
+
+
+    
+
+
+header .logo    {
+    text-decoration: none;
+    font-size: 40px;
+    color: #e50914;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    
+
+}
+
+header nav a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.707);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme*/
+.mainfilme{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('greatpretender.jpg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    
+}
+
+.mainfilme .sinopse {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.greatp{
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+
+}
+
+.botao:hover{
+    background-color:rgb(255, 255, 255, .99);
+    color: black;
+}
+
+.botao i{
+    margin-right: 6px;
+
+}
+
+.container {
+    margin-left: 30px;
+}
+
+.sinopse{
+    width: 55%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
